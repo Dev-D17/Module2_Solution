@@ -70,7 +70,7 @@ section {
 }
 
 @media (min-width: 992px) {
-  .col-lg-4 {
+  .l {
     width: 33.33%;
     float: left;
   }
@@ -78,21 +78,21 @@ section {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-	.col-ab-6,.col-ab-12 {
+	.a,.b {
     float: left;
   }
 
-  .col-ab-6 {
+  .a {
     width: 50%;
   }
-  .col-ab-12{
+  .b{
   	width:100%;
   }
 
 }
 
 @media (max-width: 768px) {
- .col-cd-12{
+ .c{
     width: 100%;
     float: left;
  }
