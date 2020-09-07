@@ -70,29 +70,29 @@ section {
 }
 
 @media (min-width: 992px) {
-  .l {
+  .lg {
     width: 33.33%;
     float: left;
   }
 
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-	.a,.b {
+@media (min-width: 768px) and (max-width: 991px) {
+	.md-6,.md-12 {
     float: left;
   }
 
-  .a {
+  .md-6 {
     width: 50%;
   }
-  .b{
+  .md-12{
   	width:100%;
   }
 
 }
 
-@media (max-width: 768px) {
- .c{
+@media (max-width: 767px) {
+ .sm{
     width: 100%;
     float: left;
  }
